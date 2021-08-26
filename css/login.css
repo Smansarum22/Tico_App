@@ -1,0 +1,106 @@
+.body{
+ background-color: #ffd400;
+    background-attachment: fixed;
+}
+
+.login-page {
+    padding: 8% 0 0;
+    margin-top: -200px;
+  }
+
+  .form {
+    position: relative;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    
+  }
+  .form input {
+    font-family: FontAwesome, "Roboto", sans-serif;
+    background: #e6e4e4;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius:10px;
+  }
+
+  .form button {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    outline: 0;
+    background: #ffd400;
+    border: 0;
+    border-radius:10px;
+    margin: 0px 0px 5px;
+    border: 2px;
+    padding: 10px;
+    color: #ed1c24;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+  
+  }
+  .form button:hover,.form button:focus {
+    background: #ed1c24;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     color: #ffff;
+    transform: translateY(-4px);
+   
+  }
+  .form button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forgot{
+    text-align: center;
+  }
+
+  .logoindosat{
+    margin-left: 117px;
+    margin-top: -170px;
+  }
+  .pesawat{
+    margin-top: 35px;
+    margin-left: 0px;
+  }
+  .bulatputih{
+    margin-top: -100px;
+    margin-left: 21px;
+    margin-right: 213px;
+    color: white;
+    font-weight: bold;
+    font-family: FontAwesome, "Roboto", sans-serif;
+    position: relative;
+		z-index: 1;
+		top: 0px;
+  }
+  h6{
+    position: absolute;
+		top: 40px;
+    margin-left: 32px;
+		z-index: 2;
+		color: #fff;
+    font-size: 20px;
+  }
+  .tandatanya{
+    margin-top: 2.7px;
+    margin-left: 20.67px;
+  }
+  .bintang{
+    margin-left: 290px;
+    margin-right: 36.25px;
+    margin-top: 0px;
+
+  }
+
+  .logo{
+    margin-top: -120px;
+    margin-left: 0px;
+  }

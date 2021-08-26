@@ -1,0 +1,109 @@
+body{
+    background-color: #FFF9D9;
+    margin: 0;
+    padding: 0 auto;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.navbar{
+background-color: #FFD400;
+}
+
+.input-group{
+    width: 230px;
+    height: auto;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+    color: #FFD400;   
+    margin-bottom: 25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+    background-color: #FFD400;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color:#ed1c24;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ed1c24;
+    color: white;
+}
+.form-control{
+    background-color: rgb(236, 238, 236);
+    border: none;
+    margin: 0 auto;
+} 
+
+.input-group-text{
+    background-color: rgb(236, 238, 236);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.img-bulat{
+    margin-left: 44%;
+    margin-top: -30%;
+}
+
+.img-gabung{
+    margin-left: -238px;
+}
+.img-merah{
+    margin-left: 5%;
+}
+.img-bintang{
+    margin-left: 13%;
+}
+.img-putih{
+    margin-top: -18%;
+}
+.img-bputih{
+    margin-left: 200px;
+}
+.bintangmerah{
+    margin-left: -150px;
+}
+.putih{
+    margin-left: 50px;
+}
+.bintang{
+    margin-left: 210px;
+}
+.psw{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.pesaw{
+    margin-left: 0px;
+}
+.bpth{
+    margin-left: 80px;
+}
+.pesawpu{
+margin-left: 90px;
+}
+.bulat-merah{
+    margin-left: 340px;
+    margin-top: 0px;
+}
+.tanya{
+    margin-left: 50%;
+    margin-top: 5px;
+}
+.bawah{
+    margin-top: -50px;
+}
