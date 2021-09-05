@@ -1,0 +1,55 @@
+body{
+    background-color: #FFF9D9;
+}
+.navbar{
+    background-color: #ffd400;
+}
+.navbar-brand{
+    margin: 0 auto;
+}
+.text{
+    margin-left: 5%;
+}
+.container{
+    background-color: #ffd5004b;
+    background-color: transparent 90%;
+    border-radius: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+h1{
+    color: #ed1c24;
+}
+.col-3{
+    border: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+p{
+    text-align: center;
+    margin-top: 8px;
+}
+.img-bulat{
+    margin-left: 40%;
+    margin-top: -25px;
+    display: block;
+}
+.img-bmerah{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.bulatstengah{
+    margin-left: 60px;
+}
+._{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.tandatanya{
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.pswmrh{
+    margin-bottom: -30px;
+    margin-left: 50%;
+}
