@@ -1,5 +1,5 @@
 body{
-    background-color: #b1ad99;
+    background-color: #FFF9D9;
 }
 .navbar{
     background-color: #ffd400;
@@ -7,49 +7,58 @@ body{
 .navbar-brand{
     margin: 0 auto;
 }
-.text{
-    margin-left: 5%;
+.jumbotron{
+    margin-top: 20px;
+    background-color: #ffd50065;
+    
 }
-.container{
-    background-color: #ffd5004b;
-    background-color: transparent 90%;
-    border-radius: 20px;
-    font-family: 'Baloo Tammudu 2', cursive;
-}
-h1{
-    color: #ed1c24;
-}
-.col-3{
-    border: none;
-    border-radius: 100px;
+.input-group{
+    width: 250px;
+    height: auto;
     margin: 0 auto;
-    padding: 0 auto;
 }
-p{
-    text-align: center;
-    margin-top: 8px;
+.form-control{
+    background-color: rgb(236, 238, 236);
+    border: none;
+    margin: 0 auto;
+    width:200px
+} 
+
+.input-group-text{
+    background-color: rgb(236, 238, 236);
+    border-radius: 15px;
+    margin: 0 auto;
 }
-.img-bulat{
-    margin-left: 40%;
-    margin-top: -25px;
-    display: block;
+.display-4{
+    margin-top: -15px;
+    font-size:25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-bottom: auto;
 }
-.img-bmerah{
-    margin-left: 10%;
-    margin-bottom: 3%;
-}
-.bulatstengah{
-    margin-left: 60px;
-}
-._{
-    margin-left: 35%;
-    margin-top: 2%;
-}
-.tandatanya{
-    margin-left: 45%;
-    margin-top: 10px;
-}
-.pswmrh{
+.lead{
     margin-bottom: -30px;
-    margin-left: 50%;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFD400;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color:#ed1c24;
+    border-radius: 10px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    width: 150px;
+}
+.btn:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ed1c24;
+    color: white;
+}
+.bottom{
+    display: block;
+    margin-top: 55px;
 }
