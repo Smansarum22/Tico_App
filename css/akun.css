@@ -11,7 +11,11 @@ body{
     margin-top: 20px;
     background-color: #ffd50065;
 }
-
+.input-group{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
 .form-control{
     background-color: rgb(236, 238, 236);
     border: none;
