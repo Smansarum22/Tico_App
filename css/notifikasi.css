@@ -1,0 +1,64 @@
+body{
+    background-color: #FFF9D9;
+}
+.navbar{
+    background-color: #ffd400;
+}
+.navbar-brand{
+    margin: 0 auto;
+}
+.jumbotron{
+    margin-top: 20px;
+    background-color: #ffd50065;
+    
+}
+.input-group{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+.form-control{
+    background-color: rgb(236, 238, 236);
+    border: none;
+    margin: 0 auto;
+    width:200px
+} 
+
+.input-group-text{
+    background-color: rgb(236, 238, 236);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.display-4{
+    margin-top: -15px;
+    font-size:25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-bottom: auto;
+}
+.lead{
+    margin-bottom: -30px;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFD400;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color:#ed1c24;
+    border-radius: 10px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    width: 150px;
+}
+.btn:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ed1c24;
+    color: white;
+}
+.bottom{
+    display: block;
+    margin-top: 55px;
+}
