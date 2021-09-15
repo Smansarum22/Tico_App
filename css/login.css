@@ -104,3 +104,27 @@
     margin-top: -120px;
     margin-left: 0px;
   }
+  .btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFD400;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color:#ed1c24;
+    border-radius: 10px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    width: 150px;
+}
+.btn:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ed1c24;
+    color: white;
+}
+.bottom{
+    display: block;
+    margin-top: 55px;
+}
