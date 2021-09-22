@@ -8,10 +8,14 @@ body{
     margin: 0 auto;
 }
 .jumbotron{
-    margin-top: 20px;
-    background-color: #ffd50065;
-    
+    background-color: #ffd500a8;    
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
+
 .input-group{
     width: 250px;
     height: auto;
@@ -31,37 +35,23 @@ body{
 }
 .display-4{
     margin-top: -15px;
-    font-size:25px;
+    font-size:23px;
     font-family: 'Baloo Tammudu 2', cursive;
     margin-bottom: auto;
 }
 .lead{
     margin-bottom: -30px;
 }
-.btn{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #FFD400;
-    border: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    color:#ed1c24;
-    border-radius: 10px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    width: 150px;
-}
-.btn:hover{
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    background-color: #ed1c24;
-    color: white;
-}
 .bottom{
     display: block;
     margin-top: 55px;
 }
 .title{
-    font-size: 20px;
+    font-size: 35px;
+}
+
+.col-12{
+    background-color: #ffd50033;
+    border-radius: 10%;
+    padding: 8%;
 }
