@@ -1,22 +1,21 @@
 .body{
   background-color: #ffd400;
-     background-attachment: fixed;
- }
+  background-attachment: fixed;
+}
  
- .login-page {
+.login-page {
      padding: 8% 0 0;
      margin-top: -200px;
-   }
+}
  
-   .form {
+.form {
      position: relative;
      max-width: 360px;
      margin: 0 auto 100px;
      padding: 45px;
-     text-align: center;
-     
-   }
-   .form input {
+     text-align: center;     
+}
+.form input {
      font-family: FontAwesome, "Roboto", sans-serif;
      background: #e6e4e4;
      width: 100%;
@@ -25,9 +24,9 @@
      padding: 10px;
      font-size: 14px;
      border-radius:10px;
-   }
+}
  
-   .form button {
+.btn {
      font-family: "Titillium Web", sans-serif;
      font-size: 14px;
      font-weight: bold;
@@ -44,33 +43,35 @@
      transition: all 0.3 ease;
      cursor: pointer;
      transition: all 0.2s;
-   
-   }
-   .form button:hover,.form button:focus {
+}
+
+.form button:hover,.form button:focus {
      background: #ed1c24;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-      color: #ffff;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     color: #ffff;
      transform: translateY(-4px);
-    
-   }
-   .form button:active {
+}
+
+.form button:active {
      transform: translateY(2px);
      box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
-   }
+}
    
-   .forgot{
+.forgot{
      text-align: center;
-   }
+}
  
-   .logoindosat{
+.logoindosat{
      margin-left: 117px;
      margin-top: -170px;
-   }
-   .pesawat{
+}
+
+.pesawat{
      margin-top: 35px;
      margin-left: 0px;
-   }
-   .bulatputih{
+}
+
+.bulatputih{
      margin-top: -100px;
      margin-left: 21px;
      margin-right: 213px;
@@ -80,27 +81,29 @@
      position: relative;
      z-index: 1;
      top: 0px;
-   }
-   h6{
+}
+
+h6{
      position: absolute;
      top: 40px;
      margin-left: 32px;
      z-index: 2;
      color: #fff;
      font-size: 20px;
-   }
-   .tandatanya{
+}
+
+.tandatanya{
      margin-top: 2.7px;
      margin-left: 20.67px;
-   }
-   .bintang{
+}
+
+.bintang{
      margin-left: 290px;
      margin-right: 36.25px;
      margin-top: 0px;
+}
  
-   }
- 
-   .logo{
+.logo{
      margin-top: -120px;
      margin-left: 0px;
-   }
+}
