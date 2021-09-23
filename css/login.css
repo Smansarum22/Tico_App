@@ -27,7 +27,7 @@
         border-radius:10px;
       }
     
-      .form button {
+      .btn {
         font-family: "Titillium Web", sans-serif;
         font-size: 14px;
         font-weight: bold;
@@ -46,7 +46,7 @@
         transition: all 0.2s;
       
       }
-      .form button:hover,.form button:focus {
+      .btn:hover,.form button:focus {
         background: #ed1c24;
          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
          color: #ffff;
