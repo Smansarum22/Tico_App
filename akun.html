@@ -34,7 +34,9 @@
   </nav>
   <nav>
       <div class="input-group mb-3">
-          <a>
+        <div class="form">
+          <form>
+            <a>
               <span class="input-group-text">
                 <img src="img/edit 1.svg"> 
                   <input type="text" class="form-control" placeholder="Edit Password User" img src="" aria-label="Username" aria-describedby="basic-addon1">
@@ -46,12 +48,13 @@
               <input type="text" class="form-control" placeholder="Edit Password Ambass" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a>
+          <input type="submit" class="btn btn-outline-danger" value="Edit">
+          <input type="submit" class="btn btn-outline-danger" value="Logout">
+          </form>
+        </div>
       </div>
   </nav>
-  <nav class="container">
-    <button type="button" class="btn btn-outline-danger">Edit</button> <br>
-    <button type="button" class="btn btn-outline-danger">Logout</button>
-  </nav>
+
   <nav class="bottom">
     <div>
       <footer class="footer">
@@ -69,16 +72,21 @@
               <a class="navbar-brand" href="#">
                 <img src="img/personal-data 2.svg" alt="">
               </a>
-              <a class="navbar-brand" href="#">
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img src="img/user 4.svg" alt="">
-                </a>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropupMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div> 
             </div>
         </nav>
     </footer>
     </div>
-  </nav>
-
-  
+  </nav>  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
