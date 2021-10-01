@@ -64,7 +64,6 @@ body{
     padding: 12px;
     font-size: 16px;
     border: none;
-    font-family: 'Baloo Tammudu 2', cursive;
   }
   
   /* The container <div> - needed to position the dropup content */
@@ -82,6 +81,7 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+     font-family: 'Baloo Tammudu 2', cursive;
   }
   
   /* Links inside the dropup */

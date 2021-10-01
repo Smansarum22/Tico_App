@@ -107,7 +107,7 @@
       .fpassword{
         font-size: 20px;
         font-family: FontAwesome, "Roboto", sans-serif;
-        color: black;
+        color: rgba(49, 48, 48, 0.699);
         font-weight: bold;
         margin: auto;
       }
