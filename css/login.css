@@ -102,5 +102,12 @@
     
       .logo{
         margin-top: -120px;
-        margin-left: 0px;
+        margin-left: 2.5px;
+      }
+      .fpassword{
+        font-size: 20px;
+        font-family: FontAwesome, "Roboto", sans-serif;
+        color: black;
+        font-weight: bold;
+        margin: auto;
       }
