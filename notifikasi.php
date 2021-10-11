@@ -56,34 +56,34 @@
         <img src="img/_ (2).svg" class="_">
         -->
       <nav class="bottom">
-        <div>
-          <footer class="footer">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="homescreen.html">
-                      <img src="img/home 1.svg" alt="">
-                  </a>
-                  <a class="navbar-brand" href="">
-                    <img src="img/Group.svg" alt="">
-                  </a>
-                  <a class="navbar-brand" href="notifikasi.html">
-                    <img src="img/text 2.svg" alt="">
-                  </a>
-                  <a class="navbar-brand" href="#">
-                    <img src="img/personal-data 2.svg" alt="">
-                  </a>
-                  <div class="dropup">
-                    <button class="dropbtn"><img src="img/user 4.svg" alt=""></button>
-                    <div class="dropup-content">
-                      <a href="registerambas.html">Register</a>
-                      <a href="editprofil.html">Edit Profil</a>
-                      <a href="#">Logout</a>
-                    </div>
+      <div>
+        <footer class="footer">
+          <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="homescreen.php">
+                    <img src="img/home 1.svg" alt="">
+                </a>
+                <a class="navbar-brand" href="#">
+                  <img src="img/Group.svg" alt="">
+                </a>
+                <a class="navbar-brand" href="notifikasi.php">
+                  <img src="img/text 2.svg" alt="">
+                </a>
+                <a class="navbar-brand" href="datauser.php">
+                  <img src="img/personal-data 2.svg" alt="">
+                </a>
+                <div class="dropup">
+                  <button class="dropbtn"><img src="img/user 4.svg" alt=""></button>
+                  <div class="dropup-content">
+                    <a href="registerambas.php">Register</a>
+                    <a href="editprofil.php">Edit Profil</a>
+                    <a href="#">Logout</a>
                   </div>
                 </div>
-            </nav>
-        </footer>
-        </div>
+              </div>
+          </nav>
+      </footer>
+      </div>
       </nav>
     <!-- Optional JavaScript; choose one of the two! -->
 
