@@ -1,8 +1,3 @@
-<?php
-//koneksi ke database
-mysqli_connect("localhost", "root", "", "tico_app");
-?>
-
 <!doctype html>
 <html lang="en">
   <head>
