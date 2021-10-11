@@ -33,7 +33,7 @@
          <form>
            <input type="text" placeholder="User Name">
            <input type="password" id="password" placeholder="Password">
-           <input type="submit" value="User" class="btn"><a href="homescreen.html">
+           <input type="submit" value="User" class="btn">
            <input type="submit" value="Ambass" class="btn">
          </form>
 
