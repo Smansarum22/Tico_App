@@ -1,3 +1,10 @@
+<?php
+
+  require 'server.php';
+  $db = new server;
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -29,12 +36,12 @@
     </div>
 
     <div class="login-page">
-      <div class="form">
-         <form >
-           <input type="text" placeholder="User Name">
-           <input type="password" id="password" placeholder="Password">
-           <input type="submit" value="User" class="btn">
-           <input type="submit" value="Ambass" class="btn">
+      <div class="form" >
+         <form method="post">
+           <input type="text" name="nik" placeholder="NIK">
+           <input type="password" name="password" id="password" placeholder="Password">
+           <input type="submit" name="user" value="user" class="btn">
+           <!-- <input type="submit" value="ambas" class="btn"> -->
          </form>
 
          <a href="homescreen.html" class="fpassword">Forgot Password ?</a>
@@ -49,20 +56,6 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
  -->
- <script>
-    function show(){
-      var password = document.getElementById("password");
-      var icon = document.querySelector(".fas")
-
-      // ========== Checking type of password ===========
-      if(password.type === "password"){
-        password.type = "text";
-      }
-      else {
-        password.type = "password";
-      }
-    };
- </script>
     
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -70,4 +63,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
   </body>
+  <?php
+            if(isset($_POST['user'])){
+
+              $nik = $_POST['nik'];
+              $password = $_POST['password'];
+
+              $hasil = $db->signin($nik,$password);
+
+              // echo $hasil;
+
+              if($hasil === true){
+                header("Location: homescreen.php");
+              }else{
+                echo 'Nik dan password tidak terdaftar';
+              }
+            }else{}
+          ?>
 </html>
+
