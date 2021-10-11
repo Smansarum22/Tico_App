@@ -1,12 +1,7 @@
 body{
     background-color: #FFF9D9;
 }
-.navbar{
-    background-color: #ffd400;
-}
-.navbar-brand{
-    margin: 0 auto;
-}
+
 .jumbotron{
     background-color: #ffd50065;    
     margin-top: 30px;
@@ -15,46 +10,57 @@ body{
     padding: 20px;
     font-family: 'Baloo Tammudu 2', cursive;
 }
-
-.input-group{
-    width: 250px;
-    height: auto;
+.navbar{
+    background-color: #ffd400;
+}
+.navbar-brand{
     margin: 0 auto;
 }
-.form-control{
-    background-color: rgb(236, 238, 236);
-    border: none;
-    margin: 0 auto;
-    width:200px
-} 
-
-.input-group-text{
-    background-color: rgb(236, 238, 236);
-    border-radius: 15px;
-    margin: 0 auto;
+.text{
+    margin-left: 5%;
 }
-.display-4{
-    margin-top: -15px;
-    font-size:23px;
+.container{
+    background-color: #ffd5004b;
+    background-color: transparent 90%;
+    border-radius: 20px;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-bottom: auto;
 }
-.lead{
-    margin-bottom: -30px;
+h1{
+    color: #ed1c24;
 }
-.bottom{
+.col-3{
+    border: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+p{
+    text-align: center;
+    margin-top: 8px;
+}
+.img-bulat{
+    margin-left: 40%;
+    margin-top: -25px;
     display: block;
-    margin-top: 5.5em;
-
 }
-.title{
-    font-size: 35px;
+.img-bmerah{
+    margin-left: 10%;
+    margin-bottom: 3%;
 }
-
-.col-12{
-    background-color: #ffd50033;
-    border-radius: 10%;
-    padding: 8%;
+.bulatstengah{
+    margin-left: 60px;
+}
+._{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.tandatanya{
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.pswmrh{
+    margin-bottom: -30px;
+    margin-left: 50%;
 }
 
 
@@ -65,13 +71,13 @@ body{
     padding: 12px;
     font-size: 16px;
     border: none;
-    
   }
   
   /* The container <div> - needed to position the dropup content */
   .dropup {
     position: relative;
     display: inline-block;
+    font-family: 'Baloo Tammudu 2', cursive;
   }
   
   /* Dropup content (Hidden by Default) */
@@ -83,7 +89,6 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-     font-family: 'Baloo Tammudu 2', cursive;
   }
   
   /* Links inside the dropup */
@@ -105,5 +110,4 @@ body{
   /* Change the background color of the dropup button when the dropup content is shown */
   .dropup:hover .dropbtn {
     background-color: #ffd400;
-    
   }

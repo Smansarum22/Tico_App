@@ -1,3 +1,8 @@
+<?php
+//koneksi ke database
+mysqli_connect("localhost", "root", "", "tico_app");
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -30,14 +35,14 @@
 
     <div class="login-page">
       <div class="form">
-         <form>
+         <form >
            <input type="text" placeholder="User Name">
            <input type="password" id="password" placeholder="Password">
            <input type="submit" value="User" class="btn">
            <input type="submit" value="Ambass" class="btn">
          </form>
 
-         <a href="#" class="fpassword">Forgot Password ?</a>
+         <a href="homescreen.html" class="fpassword">Forgot Password ?</a>
         </div>
     </div>
 
