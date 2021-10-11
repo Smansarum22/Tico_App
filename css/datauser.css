@@ -2,6 +2,14 @@ body{
     background-color: #FFF9D9;
 }
 
+.jumbotron{
+    background-color: #ffd50065;    
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
 .navbar{
     background-color: #ffd400;
 }
