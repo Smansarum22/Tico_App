@@ -89,7 +89,21 @@
               }else{
                 echo 'Nik dan password tidak terdaftar';
               }
-            }else{}
+
+            } else if (isset($_POST['ambas'])){
+                
+              $nik = $_POST['nik'];
+              $password = $_POST['password'];
+
+              $hasil = $db->signin($nik,$password);
+
+              if($hasil === true){
+                header("Location: homescreen.php");
+              }else{
+                echo 'Nik dan password tidak terdaftar';
+              }
+            }
+            
           ?>
 </html>
 
