@@ -9,7 +9,7 @@ class server
         $server = "localhost";
         $username = "root";
         $password = "";
-        $database = "db_tico";
+        $database = "tico";
         $this->connect = new mysqli($server,$username,$password,$database);
     }
 
