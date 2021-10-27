@@ -90,7 +90,7 @@
                 echo 'Nik dan password tidak terdaftar';
               }
 
-            } else if (isset($_POST['ambas'])){
+            } else {
                 
               $nik = $_POST['nik'];
               $password = $_POST['password'];
