@@ -37,7 +37,6 @@ class server
             }else{
                 
                 return false;
-
             }
         }
         
