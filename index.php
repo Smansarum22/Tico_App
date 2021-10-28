@@ -20,6 +20,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>Login</title>
+
+
   </head>
 
   <body class="body">
@@ -35,10 +37,20 @@
     <div class="tandatanya">
       <img src="img/tandatanya.svg">
     </div>
+
+   <center>
+    <div class="alert alert-danger alert-dismissible fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Danger!</strong> Password yang anda masukkan salah.
+    </div>
+  </center>
+  
+
     <div class="bintang">
       <img src="img/Bintang.svg">
     </div>
 
+   
     <div class="login-page">
       <div class="form" >
          <form method="post">
@@ -67,11 +79,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-    <div class="container">
-    <div class="alert alert-danger alert-dismissible fade in">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Danger!</strong> Password yang anda masukkan salah.
-  </div>
+  
     </div>      
   </body>
   <?php
@@ -80,13 +88,15 @@
               $nik = $_POST['nik'];
               $password = $_POST['password'];
 
+
               $hasil = $db->signin($nik,$password);
 
-              // echo $hasil;
+              echo $hasil;
 
-              if($hasil === true){
+              if($hasil != false){
                 header("Location: homescreen.php");
               }else{
+                
                 echo 'Nik dan password tidak terdaftar';
               }
             }else{}

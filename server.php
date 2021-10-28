@@ -9,7 +9,7 @@ class server
         $server = "localhost";
         $username = "root";
         $password = "";
-        $database = "db_tico";
+        $database = "tico";
         $this->connect = new mysqli($server,$username,$password,$database);
     }
 
@@ -21,7 +21,7 @@ class server
         $query = "SELECT * FROM tb_user WHERE nik = '$nik' AND pass = '$passMd5'";
         $user = mysqli_query($this->connect,$query) or die(mysqli_error($this->connect));
 
-        if($user === true){
+        if($user == true){
 
             return "user";
 
@@ -30,13 +30,13 @@ class server
             $queryambas = "SELECT * FROM tb_ambas WHERE nik = '$nik' AND pass = '$passMd5'";
             $ambas = mysqli_query($this->connect,$queryambas) or die(mysqli_error($this->connect));
 
-            if($ambas === true){
+            if($ambas == true){
 
                 return "ambas";
 
             }else{
                 
-                return false
+                return false;
 
             }
         }
