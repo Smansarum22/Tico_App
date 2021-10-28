@@ -53,9 +53,20 @@ class server
 
     function sendComplaint($id_user, $jenis_complaint,$id_outlet, $tanggal_transaksi,$no_mobo, $no_pelanggan, $gambar, $file_data, $deskripsi){
 
-        $query = "INSERT INTO tbkomplain (no_complaint, id_user, ....) VALUES ('', '$id_user')";
+        $query = "INSERT INTO tbkomplain (
+            no_complaint, id_user, jenis_komplain, desc_komplain, gambar_komplain,
+            dok_komplain, nohp_komplain, tgl_komplain, id_outlet, no_mobo, tgl_transaksi
+            ) VALUES (
+            '', '$id_user', '$jenis_complaint', '$deskripsi', '$gambar',
+            '$file_data', '$no_pelanggan', '', '$id_outlet', '$no_mobo', '$tanggal_transaksi'
+        )";
         $result = mysqli_query($this->connect,$query) or die(mysqli_error($this->connect));
 
+        if($result == true){
+            return true;
+        } else {
+            return false;
+        }
     }
 
 

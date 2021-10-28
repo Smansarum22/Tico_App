@@ -159,7 +159,13 @@
         $file_data = $_POST['file_data'];
         $deskripsi = $_POST['deskripsi'];
 
-        
+        $hasil = $db->sendComplaint($id_user, $jenis_complaint,$id_outlet, $tanggal_transaksi,$no_mobo, $no_pelanggan, $gambar, $file_data, $deskripsi);
+
+              if($hasil != false){
+                echo 'Input komplain telah berhasil';
+              }else{    
+                echo 'Input komplain belum berhasil';
+              }
      }  
   
   ?>
