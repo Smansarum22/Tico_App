@@ -43,7 +43,7 @@
             <div class="row">
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php">
                     <img src="img/Group 29.svg">
                   </a>
                 </div>
