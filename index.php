@@ -1,5 +1,6 @@
 <?php
 
+  session_start();
   require 'server.php';
   $db = new server;
 

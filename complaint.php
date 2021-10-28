@@ -60,7 +60,7 @@
           <a>
             <span class="input-group-text">
               <img src="img/formCalender.svg">
-              <input type="date" class="form-control"  name="tanggal" placeholder="Tanggal Masalah Terjadi" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="date" class="form-control"  name="tanggal_transaksi" placeholder="Tanggal Transaksi" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a> <br>
           <a>
@@ -79,7 +79,13 @@
           <a>
             <span class="input-group-text">
               <img src="img/FormPicture.svg">
-              <input type="file" class="form-control" name="file_data" placeholder="Input Gambar" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="file" class="form-control" name="gambar" placeholder="Upload Gambar" aria-label="Username" aria-describedby="basic-addon1">
+            </span>
+          </a>  <br>   
+          <a>
+            <span class="input-group-text">
+              <img src="img/FormPicture.svg">
+              <input type="file" class="form-control" name="file_data" placeholder="Upload File Tambahan" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a>  <br>           
           <a>
@@ -143,12 +149,17 @@
 
      if(isset($_POST['user'])){
 
+        $id_user = $_SESSION["nik"];
+        $jenis_complaint = $_GET['jenis_complaint'];
         $id_outlet = $_POST['id_outlet'];
-        $tanggal = $_POST['tanggal'];
+        $tanggal_transaksi = $_POST['tanggal_transaksi'];
         $no_mobo = $_POST['no_mobo'];
         $no_pelanggan = $_POST['no_pelanggan'];
+        $gambar = $_POST['gambar'];
         $file_data = $_POST['file_data'];
         $deskripsi = $_POST['deskripsi'];
+
+        
      }  
   
   ?>

@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,12 +32,12 @@
      <br>
       <div class="text">
         <h2>
-            Hello, - !
+            Hello, ! <?php echo $_SESSION["nama"] ?>
             <img src="img/kplmerah.svg" class="kplmerah"> 
             <img src="img/malea.svg" class="_"> 
         </h2>
         <h5>
-            Cluster Sales Manager -,
+            Cluster Sales Manager , <?php echo $_SESSION["mc"] ?>
         </h5>
         </div>
     </div>
