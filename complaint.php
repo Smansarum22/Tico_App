@@ -144,8 +144,11 @@
      if(isset($_POST['user'])){
 
         $id_outlet = $_POST['id_outlet'];
-        $id_outlet = $_POST['id_outlet'];
-
+        $tanggal = $_POST['tanggal'];
+        $no_mobo = $_POST['no_mobo'];
+        $no_pelanggan = $_POST['no_pelanggan'];
+        $file_data = $_POST['file_data'];
+        $deskripsi = $_POST['deskripsi'];
      }  
   
   ?>
