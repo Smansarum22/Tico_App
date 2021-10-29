@@ -50,18 +50,8 @@
     <div class="bintang">
       <img src="img/Bintang.svg">
     </div>
-<<<<<<< HEAD
-    <div class="container">
-    <div class="alert alert-danger alert-dismissible fade in">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Danger!</strong> Password yang anda masukkan salah.
-  </div>
-    </div>      
-  </body>
-=======
 
    
->>>>>>> 9359aece11d7471f5939f4c205a1eed5d12caa54
     <div class="login-page">
       <div class="form" >
          <form method="post">
@@ -90,13 +80,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-<<<<<<< HEAD
-   
-=======
   
     </div>      
   </body>
->>>>>>> 9359aece11d7471f5939f4c205a1eed5d12caa54
   <?php
             if(isset($_POST['user'])){
 
