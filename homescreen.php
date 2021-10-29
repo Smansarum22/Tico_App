@@ -176,7 +176,7 @@ session_start();
                   <div class="dropup-content">
                     <a href="registerambas.php">Register</a>
                     <a href="editprofil.php">Edit Profil</a>
-                    <a href="#">Logout</a>
+                    <a href="index.php">Logout</a>
                   </div>
                 </div>
               </div>
