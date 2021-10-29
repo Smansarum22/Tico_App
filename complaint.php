@@ -1,3 +1,10 @@
+<?php
+
+  require 'server.php';
+  $db = new server;
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -43,39 +50,52 @@
       -->
         <div class="input-group mb-3">
         <div class="form">
-          <form>
+          <form method="post">
             <a>
               <span class="input-group-text">
                 <img src="img/formID.svg"> 
-                  <input type="text" class="form-control"  placeholder="ID Outlet" img src="" aria-label="Username" aria-describedby="basic-addon1">
+                  <input type="text" class="form-control" name="id_outlet" placeholder="ID Outlet" img src="" aria-label="Username" aria-describedby="basic-addon1">
               </span>
           </a> <br>
           <a>
             <span class="input-group-text">
               <img src="img/formCalender.svg">
-              <input type="text" class="form-control" placeholder="Tanggal Masalah Terjadi" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="date" class="form-control"  name="tanggal_transaksi" placeholder="Tanggal Transaksi" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a> <br>
           <a>
             <span class="input-group-text">
               <img src="img/formNomorMobo.svg">
-              <input type="text" class="form-control" placeholder="Nomor Mobo Transaksi" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="tel" class="form-control" name="no_mobo" placeholder="Nomor Mobo Transaksi" aria-label="Username" aria-describedby="basic-addon1">
+            </span>
+          </a> <br>
+          <a>
+          <a>
+            <span class="input-group-text">
+              <img src="img/formNomorMobo.svg">
+              <input type="tel" class="form-control" name="no_pelanggan" placeholder="Nomor Pelanggan" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a> <br>
           <a>
             <span class="input-group-text">
               <img src="img/FormPicture.svg">
-              <input type="text" class="form-control" placeholder="Input Gambar" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="file" class="form-control" name="gambar" placeholder="Upload Gambar" aria-label="Username" aria-describedby="basic-addon1">
+            </span>
+          </a>  <br>   
+          <a>
+            <span class="input-group-text">
+              <img src="img/FormPicture.svg">
+              <input type="file" class="form-control" name="file_data" placeholder="Upload File Tambahan" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a>  <br>           
           <a>
             <span class="input-group-text">
               <img src="img/FormDeskripsi.svg">
-              <input type="text" class="form-control" placeholder="Deskripsi Masalah" aria-label="Username" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" name="deskripsi" placeholder="Deskripsi Masalah" aria-label="Username" aria-describedby="basic-addon1">
             </span>
           </a> <br>
           <a>
-            <input type="submit" value="Submit" class="btn btn-outline-danger">
+            <input type="submit" name="send" value="KIRIM" class="btn btn-outline-danger">
           </a>
         </form>
         </div>
@@ -124,4 +144,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     -->
   </body>
+
+  <?php
+
+     if(isset($_POST['user'])){
+
+        $id_user = $_SESSION["nik"];
+        $jenis_complaint = $_GET['jenis_complaint'];
+        $id_outlet = $_POST['id_outlet'];
+        $tanggal_transaksi = $_POST['tanggal_transaksi'];
+        $no_mobo = $_POST['no_mobo'];
+        $no_pelanggan = $_POST['no_pelanggan'];
+        // $gambar = $_POST['gambar'];
+        $gambar = addslashes(file_get_contents($_FILES['gambar']['tmp_name']));
+        $file_data = $_POST['file_data'];
+        $deskripsi = $_POST['deskripsi'];
+
+        $hasil = $db->sendComplaint($id_user, $jenis_complaint,$id_outlet, $tanggal_transaksi,$no_mobo, $no_pelanggan, $gambar, $file_data, $deskripsi);
+
+              if($hasil != false){
+                echo 'Input komplain telah berhasil';
+              }else{    
+                echo 'Input komplain belum berhasil';
+              }
+     }  
+  
+  ?>
+
 </html>

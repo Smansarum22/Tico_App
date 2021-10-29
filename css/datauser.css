@@ -10,7 +10,7 @@ body{
 h5{
     background-attachment: fixed;
     background-color: #ffd5005d;
-    margin-top: 15%;
+    margin-top: 8%;
     margin-bottom: 15%;
     padding: 5%;
     text-align: center;
@@ -113,6 +113,8 @@ h5{
       border-left: none;
       border-right: none;
       border-color: #C4C4C4;
+      float: right;
+      flex-direction: column;
     }
   .btn {
     font-family: "Titillium Web", sans-serif;
@@ -130,7 +132,9 @@ h5{
     transition: all 0.3 ease;
     cursor: pointer;
     transition: all 0.2s;
-    margin-right: 40px;
+    margin-left: 39%;
+    width: 90px;
+  
   }
 
   .btn:hover,.form button:focus {
@@ -139,3 +143,65 @@ h5{
      color: #ffff;
     transform: translateY(-4px);
   }
+  
+.img-bulat{
+  margin-left: 4%;
+  margin-top: -60%;
+}
+.img-gabung{
+  margin-left: -238px;
+}
+.img-merah{
+  margin-left: -57%;
+}
+.img-bintang{
+  margin-left: 13%;
+}
+.img-putih{
+  margin-top: -18%;
+}
+.img-bputih{
+  margin-left: 200px;
+}
+.bintangmerah{
+  margin-left: -150px;
+}
+.putih{
+  margin-left: 50px;
+}
+.bintang{
+  margin-left: 210px;
+}
+.psw{
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.pesaw{
+  margin-left: 0px;
+}
+.bpth{
+  margin-left: 80px;
+}
+.pesawpu{
+margin-left: 90px;
+}
+.bulat-merah{
+  margin-left: 350px;
+  margin-top: 0px;
+}
+.tanya{
+  margin-left: 50%;
+  margin-top: 5px;
+}
+.bawah{
+  margin-top: -50px;
+}
+
+.group21{
+  margin-top: -20%;
+  margin-left: 30%;
+}
+.kplmerah{
+  margin-top: 8%;
+  margin-left: 70px;
+}

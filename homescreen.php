@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -26,12 +32,12 @@
      <br>
       <div class="text">
         <h2>
-            Hello, - !
+            Hello, ! <?php echo $_SESSION["nama"] ?>
             <img src="img/kplmerah.svg" class="kplmerah"> 
             <img src="img/malea.svg" class="_"> 
         </h2>
         <h5>
-            Cluster Sales Manager -,
+            Cluster Sales Manager , <?php echo $_SESSION["mc"] ?>
         </h5>
         </div>
     </div>
@@ -43,7 +49,7 @@
             <div class="row">
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=prepaid_register">
                     <img src="img/Group 29.svg">
                   </a>
                 </div>
@@ -53,7 +59,7 @@
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=cashback">
                     <img src="img/Group 30.svg">
                   </a>
                 </div>
@@ -61,14 +67,14 @@
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=extend_masa_aktif">
                   <img src="img/extend.svg"> </a>
                 </div>
                 <p> Extend Masa Aktif</p>
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=open_previllage">
                   <img src="img/Group 31.svg"> </a>
                 </div>
                 <p>Open Previllage</p>
@@ -77,28 +83,28 @@
             <div class="row">
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=sp">
                   <img src="img/Group 32 (1).svg"> </a>
                 </div>
                <p>SP</p>
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=voucher">
                   <img src="img/Group 33.svg"> </a>
                 </div>
-                <p> Voucer</p>
+                <p> Voucher</p>
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=program_trade">
                   <img src="img/ProgramTrade.svg"> </a>
                 </div>
                 <p>Program Trade</p>
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=mobi">
                   <img src="img/MobiProblem.svg"> </a>
                 </div>
                 <p>Mobi</p>
@@ -107,21 +113,21 @@
             <div class="row">
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=mobo">
                   <img src="img/MoboProblem.svg"> </a>
                 </div>
                <p>Mobo</p>
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=i_simple">
                   <img src="img/Isimpleproblem.svg"> </a>
                 </div>
                 <p>I Simple</p>
               </div>
               <div class="col-3">
                 <div>
-                  <a href="complaint.html">
+                  <a href="complaint.php?jenis_complaint=change_card_3g_conversion">
                   <img src="img/change3g.svg"> </a>
                 </div>
                 <p>Change Card 3g Conversion</p>
@@ -170,7 +176,7 @@
                   <div class="dropup-content">
                     <a href="registerambas.php">Register</a>
                     <a href="editprofil.php">Edit Profil</a>
-                    <a href="#">Logout</a>
+                    <a href="index.php">Logout</a>
                   </div>
                 </div>
               </div>

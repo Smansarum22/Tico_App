@@ -5,7 +5,7 @@
     
     .login-page {
         padding: 8% 0 0;
-        margin-top: -200px;
+        margin-top: -220px;
       }
     
       .form {
@@ -110,4 +110,10 @@
         color: rgba(49, 48, 48, 0.699);
         font-weight: bold;
         margin: auto;
+      }
+
+      .alert{
+        text-align: center;
+        width:70%;
+        
       }
