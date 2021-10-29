@@ -155,7 +155,8 @@
         $tanggal_transaksi = $_POST['tanggal_transaksi'];
         $no_mobo = $_POST['no_mobo'];
         $no_pelanggan = $_POST['no_pelanggan'];
-        $gambar = $_POST['gambar'];
+        // $gambar = $_POST['gambar'];
+        $gambar = addslashes(file_get_contents($_FILES['gambar']['tmp_name']));
         $file_data = $_POST['file_data'];
         $deskripsi = $_POST['deskripsi'];
 
