@@ -46,12 +46,11 @@
     </div>
   </center>
   
-
     <div class="bintang">
       <img src="img/Bintang.svg">
     </div>
 
-   
+
     <div class="login-page">
       <div class="form" >
          <form method="post">
