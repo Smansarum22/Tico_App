@@ -66,3 +66,6 @@ h1{
     float: right;
     flex-direction: column;
 }
+.button{
+    display: flex;
+}
