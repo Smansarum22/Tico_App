@@ -1,9 +1,8 @@
 body{
-    background-color: #FFF9D9;
     height: 100%;
 }
 .navbar{
-    background-color: #ffd400;
+    background-color: hsl(50, 100%, 50%);
 }
 .navbar-brand{
     margin: 0 auto;
@@ -17,99 +16,16 @@ body{
       font-family: 'Baloo Tammudu 2', cursive;
       padding: 10px;
 }
-.col-md{
-      padding: 10px;
-      margin: 15px;
-}
-.container{
-margin-top: 30px;
-}
-.img-pesan{
-    height: 40px;
-    float:left;
-}
-.iconkiri{
-    float: right;
-    height: 40px;
-    margin-top: -20px;
-}
-.display-4{
-    margin-top: -15px;
-    font-size:23px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    margin-bottom: auto;
-    padding-left: 15%;
-}
-.lead{
-    margin-bottom: -30px;
-    padding-left: 15%;
-}
-.pertama{
-    background-color: #ffd5004f;
-    padding: 30px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-}
-.kedua{
-    background-color: #ffd5004f;
-    padding: 30px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    height: 370px;
-}
-h6{
-    margin: 5px;
-}
-.upload-foto{
-    background-color: rgba(0, 0, 0, 0.363);
-    margin: 0 auto;
-    padding: 30px;
-    width: 250px;
-    border-radius: 5%;
-}
-.download{
-    width: 20px;
-}
-.kedua-bawah{
-    background-color: #ffd5004f;
-    padding: 30px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    height: 200px;
-}
-.chat-1{
-    background-color: rgba(0, 0, 0, 0.363);
-    height: 50px;
-    width: 320px;
-    border-radius: 5px;
-}
-.chat-2{
-    background-color: rgba(240, 234, 234, 0.959);
-    height: 50px;
-    width: 320px;
-    border-radius: 5px;  
-    float: right;
-    margin: 20px;
-}
-.chat-3{
-    background-color: white;
-    height: 30px;
-    margin-top: 80px;
-    border-radius: 5px;
-    padding: 10px;
-}
-.jumbotron{
-    margin-top: -90px;
-}
-.gambar-jumbotron{
-   width: 100%;
-   min-height: 200px;
-}
-.navbar-brand{
-    margin-left: 2%;
-}
-.btn {
+
+h1{
     font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    margin: 3%;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: 'Baloo Tammudu 2', cursive;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: .1em;
@@ -132,64 +48,13 @@ h6{
      color: #ffff;
     transform: translateY(-4px);
 }
-h3{
-    text-align: center;
-    margin-top: 2%;
-}
-.row{
-    background-color:transparent;
-}
-.table{
-    width: 100%;
-    margin-top: -30px;
-}
-.download{
-    height: 10px;
-}
-.h6{
-    margin-right: 0px;
-    margin-bottom: -70px;
-    font-size: 5px;
-}
-.footer{
-    background-color: #ffd400;
-    text-align: center;
-    font-size: 10px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    padding: 10px;
-}
-.place{
-    width: 15px;
-}
-.btn-1{
-    border:none;
-    background-color: transparent;
-    margin: -10px;
-    padding: -10px;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: .1em;
-    outline: 0;
-    border: 0;
-    border-radius:5px;
-    border: 2px;
-    color:black;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
-    transition: all 0.2s;
-    border-color: tomato;
-}
-.btn-1:hover,.form button:focus {
-    background: #ffd400;
-    color: #ffff;
-    transform: translateY(-4px);
-}
+
 .col-md-12{
     background-color: #ffd50050;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 0 auto;
+    width: 70%;
 }
 .label{
     background-color: transparent;
@@ -200,5 +65,4 @@ h3{
     border-color: #C4C4C4;
     float: right;
     flex-direction: column;
-  }
-  
+}
